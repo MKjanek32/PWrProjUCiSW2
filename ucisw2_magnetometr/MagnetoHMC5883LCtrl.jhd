@@ -1,0 +1,5 @@
+MODULE MagnetoHMC5883LCtrl
+	SUBMODULE I2C_Master
+		INSTANCE I2CCtrl
+	SUBMODULE Magneto_Drv
+		INSTANCE MagnetoInterface

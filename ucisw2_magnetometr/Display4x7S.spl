@@ -1,0 +1,9 @@
+[Inputs]
+Clk
+=DI[15:0]=
+=DP[3:0]=
+=Blank[3:0]=
+[Outputs]
+=DS_EN[3:0]=
+=DS[7:0]=
+[BiDir]

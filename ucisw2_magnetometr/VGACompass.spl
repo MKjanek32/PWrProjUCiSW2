@@ -1,0 +1,12 @@
+[Inputs]
+Reset
+Clk
+=DRX[15:0]=
+=DRY[15:0]=
+[Outputs]
+H_SYNC
+V_SYNC
+=V_R[4:0]=
+=V_G[5:0]=
+=V_B[4:0]=
+[BiDir]

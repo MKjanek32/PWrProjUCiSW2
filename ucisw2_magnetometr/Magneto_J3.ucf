@@ -1,0 +1,4 @@
+# Magnetometer GY-273 connected to Header J3 (Espier III board)
+NET "DRDY" LOC = "P24" | SLEW = SLOW | DRIVE = 6;  # shared with PS2_CLK
+NET "SDA"  LOC = "P57" | SLEW = SLOW | DRIVE = 6;
+NET "SCL"  LOC = "P58" | SLEW = SLOW | DRIVE = 6;

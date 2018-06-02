@@ -1,0 +1,7 @@
+MODULE magneto_i2c
+	SUBMODULE MagnetoHMC5883LCtrl
+		INSTANCE MagnetoCtrl
+	SUBMODULE Display4x7S
+		INSTANCE ZAxisDisp
+	SUBMODULE VGACompass
+		INSTANCE CompassDisp
